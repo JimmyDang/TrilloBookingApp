@@ -10,7 +10,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #FFF;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 2px solid var(--color-grey-light-2);
 
   display: flex;
   justify-content: space-between;
@@ -18,15 +18,18 @@
 }
 .content{
   display: flex;
+  height: 100rem;    //for testing
 }
 .sidebar{
   background-color: var(--color-grey-dark-1);
 
   flex: 0 0 18%;   //flex grow shrink(0 = no shrink) basics
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .hotel-view{
   background-color: var(--color-grey-light-2);
-  background-color: orangered;
+  background-color: #fff;
   flex: 1;
 }
